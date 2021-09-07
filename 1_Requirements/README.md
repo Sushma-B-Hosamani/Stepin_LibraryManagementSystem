@@ -48,7 +48,6 @@ This project is used to maintain the record of the library. This project will on
 ### Low Level Requirements
 | Low Level Requirements      | Description |
 | ----------- | ----------- |
-
 | HLR1_LLR1  | Login(Username,Password) |
 | HLR2_LLR1   | Menu - Add Book|
 | HLR2_LLR2   | Menu - Display/list Book|
