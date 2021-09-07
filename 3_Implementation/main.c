@@ -1,24 +1,76 @@
-/**
- * @file main.c
- * @author Sushma
- * @brief Main 
- * @version 0.1
- * @date 2021-09-06
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-
-
 
 #include "fun.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
 
+
+int count=0;
+int size;
 char password[8]="library";
-char info[500];
-char *arr="Books.txt";
-FILE *pb;
 
-void admin() {
+
+void head() {
+
+    printf("\t###########################################################################");
+	printf("\n\t############              Library management System            ############");
+	printf("\n\t############                (Mini Project)                     ############");
+	printf("\n\t###########################################################################");
+}
+
+
+void menu()
+{
+ number();
+int ch;
+do
+{
+system("cls");
+head();
+printf("\n\n1. Add book information\n2. Display book information\n");
+printf("3. List all books of given author\n");
+printf("4. List the title of specified book\n");
+printf("5. List the count of books in the library\n");
+printf("6. Exit");
+
+printf ("\n\nEnter one of the above : ");
+scanf("%d",&ch);
+fflush(stdin);
+switch (ch)
+{
+/* Add book */
+case 1:
+    printf("Maximum %d books can be added\n",size);
+    addbook();
+    break;
+case 2:
+    displaybook();
+    break;
+
+case 3:
+    listofbooks_by_author();
+    break;
+
+case 4:
+    books_by_title();
+    break;
+
+case 5:
+    countbook();
+    break;
+
+case 6:
+    return;
+
+}
+getch();
+}while(1);
+
+
+}
+
+
+void login(void) {
 	char us[20],pass[20],ch='\0';
 	int j=0;
 	
@@ -54,50 +106,10 @@ void admin() {
             return;
         }  
 }
-void menu()
-{
-    int choice;
-    do
-    {
-        system("cls");
-        printf("\n\n\t\t\t\t Book Menu");
-        printf("\n\n\t\t 1. Add Book \n\t\t 2. list Book  \n\t\t  3. Exit");
-        printf("\n\n\t\t Please Enter the choice : ");
-        scanf("%d",&choice);
-        switch(choice)
-        {
-            case 1:addbook();
-            break;
-            case 2:listbook();
-            break;
-           
-            case 3:exitcheck();
-            break;
-            default: printf("\n\n\t\t Invalid Choice");
-            getch();
-        }
-    }while(1);
-}
 
 
-void exitcheck(void)
-{
-    system("cls");
-    printf("\n\n\t\t Do you really want to exit ?(Y/N) : ");
-    char ch;
-    scanf(" %c",&ch);
-    if(ch=='Y'||ch=='y')
-        exit(1);
-    return;
-}
-
-
-int main(void)
-{
-    system("cls");
-    printf("\n\n\n\t\t\t Library Management System \n\n\t\t\t\t\t\t\t\t mini project \n\t\t\t\t\t\t\t\t");
-    printf("\n Press any key to continue");
-    getch();
-    admin();
-    return 0;
+int main() {
+	system("cls");
+	login();
+	return 0;
 }

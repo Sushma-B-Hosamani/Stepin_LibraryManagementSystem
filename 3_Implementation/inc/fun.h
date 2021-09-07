@@ -1,7 +1,7 @@
 /**
  * @file fun.h
- * @author Sushma
- * @brief Header file
+ * @author your name (you@domain.com)
+ * @brief 
  * @version 0.1
  * @date 2021-09-07
  * 
@@ -9,18 +9,21 @@
  * 
  */
 
-#include "stdlib.h"
+
+#include "stdio.h"
+
+
+#ifndef FUN_H
+#define FUN_H
+
 #include "stdio.h"
 #include "string.h"
-
-#ifndef __FUN_H
-#define __FUN_H
-
+#include "stdlib.h"
 void addbook();
-void listbook();
-int bidcheck(int);
-void exitcheck(void);
-void admin(void);
-
-#endif // __RECORD_H
+void displaybook();
+void listofbooks_by_author();
+void books_by_title();
+void countbook();
+void number();
+#endif //#ifndef FUN_H
 
