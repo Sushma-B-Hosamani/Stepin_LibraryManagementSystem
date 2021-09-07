@@ -1,0 +1,5 @@
+
+1	C	James	2	2	
+2	Java	Mathew	5	5	
+3	Python	Arihant	3	3	
+4	Maths	Ramanujan	6	6	
