@@ -1,4 +1,5 @@
 # Architectures
 ## High Level Design
-![](https://github.com/Sushma-B-Hosamani/github-upload/blob/main/2_Design/Behavioural.png)
+![Behavioural](https://user-images.githubusercontent.com/89739360/132348036-5a8c1d59-2007-4cec-8cee-f780212d1753.png)
+
 
