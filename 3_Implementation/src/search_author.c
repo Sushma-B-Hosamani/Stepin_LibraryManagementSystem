@@ -25,8 +25,9 @@ for (i=0; i<count; i++)
 {
 if (strcmp(btitle, book[i].author)==0)
 {
-system("cls");
-printf ("%s \t %s \t %d \t %f",book[i].title,book[i].author,book[i].pages,book[i].price);
+
+printf ("\n%s \t %s \t %d \t %f",book[i].title,book[i].author,book[i].pages,book[i].price);
+flag=1;
 }
 }
 if (flag != 1)
