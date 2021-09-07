@@ -18,6 +18,7 @@ extern Book *book;
 
 void books_by_title()
 {
+    int flag=0;
 char btitle[30];
 int i;
 printf ("Enter book title:");
@@ -28,9 +29,15 @@ if (strcmp(btitle, book[i].title) == 0)
 {
 system("cls");
 printf ("%s \t %s \t %d \t %f",book[i].title,book[i].author,book[i].pages,book[i].price);
+flag=1;
 }
-else
-printf("Book not found\n");
 }
+if (flag != 1)
+    {
+        printf("No book found");
+        flag = 0;
+    }
+
+
 
 }

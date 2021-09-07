@@ -28,8 +28,11 @@ if (strcmp(btitle, book[i].author)==0)
 system("cls");
 printf ("%s \t %s \t %d \t %f",book[i].title,book[i].author,book[i].pages,book[i].price);
 }
-else
-printf("Book not found\n");
 }
+if (flag != 1)
+    {
+        printf("No book found");
+        flag = 0;
+    }
 
 }
