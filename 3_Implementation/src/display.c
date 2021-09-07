@@ -1,7 +1,7 @@
 /**
  * @file display.c
  * @author Sushma H
- * @brief Display the books
+ * @brief Function to display the books
  * @version 0.1
  * @date 2021-09-07
  * 

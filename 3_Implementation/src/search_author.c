@@ -1,7 +1,7 @@
 /**
  * @file search_author.c
  * @author Sushma H
- * @brief Searches by the author of the book
+ * @brief Function to search the book by the author
  * @version 0.1
  * @date 2021-09-07
  * 

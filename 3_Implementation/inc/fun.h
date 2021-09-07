@@ -1,7 +1,7 @@
 /**
  * @file fun.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author Sushma H
+ * @brief Contains prototype of the functions
  * @version 0.1
  * @date 2021-09-07
  * 

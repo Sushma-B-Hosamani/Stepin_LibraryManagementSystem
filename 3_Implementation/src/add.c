@@ -1,4 +1,13 @@
-
+/**
+ * @file add.c
+ * @author Sushma H
+ * @brief Function to add the books
+ * @version 0.1
+ * @date 2021-09-07
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "fun.h"
 #include "struct.c"
 
