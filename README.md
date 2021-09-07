@@ -1,6 +1,6 @@
 # Stepin_LibraryManagementSystem
 # Code_Inspector
-[![Code Grade](https://www.code-inspector.com/project/27453/score/svg)](https://www.code-inspector.com)
+[![Code Grade](https://www.code-inspector.com/project/27453/score/svg?branch=main&kill_cache=1")](https://www.code-inspector.com)
 [![Code Grade](https://www.code-inspector.com/project/27453/status/svg)](https://www.code-inspector.com)
 
 # Codacy
