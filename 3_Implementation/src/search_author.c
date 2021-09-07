@@ -16,7 +16,7 @@ extern Book *book;
 
 void listofbooks_by_author()
 {
-
+int flag=0;
 char btitle[30];
 int i;
 printf ("Enter author name : ");
