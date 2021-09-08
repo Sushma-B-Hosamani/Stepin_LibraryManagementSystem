@@ -1,4 +1,6 @@
 # Stepin_LibraryManagementSystem
+The mini-project “Library management system project in C” is a console application using the C programming language. This project compiled in Code Blocks with the GCC compiler. In this console application, you can do basic library management task like adding the book, view the added book, search the books, count the total number of books. Good thing is that “Library management system project” is username and password-protected, so only authorized person able to login in this application.
+
 # Code_Inspector
 [![Code Grade](https://www.code-inspector.com/project/27453/score/svg?branch=main&kill_cache=1")](https://www.code-inspector.com)
 [![Code Grade](https://www.code-inspector.com/project/27453/status/svg?branch=main&kill_cache=1")](https://www.code-inspector.com)
