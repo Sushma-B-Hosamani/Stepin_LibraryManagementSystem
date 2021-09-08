@@ -27,3 +27,7 @@ The mini-project “Library management system project in C” is a console appli
 | `3_Implementation` | All code and documentation|
 | `4_Test_plan`      | Documents with test plans and procedures|
 | `5_ImagesandVideos`      | Documents with images|
+
+## Learning Resources
+1. Future Skills
+2. Geeksforgeeks
