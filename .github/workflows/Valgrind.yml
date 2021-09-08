@@ -19,4 +19,4 @@ jobs:
     - name: make run_test
       run: make -C 3_Implementation/ Test
     - name: Valgrid
-      run: valgrind ./3_Implementation/build/lib_test.exe
+      run: valgrind ./3_Implementation/lib_test.exe
