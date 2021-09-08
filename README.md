@@ -16,7 +16,6 @@ The mini-project “Library management system project in C” is a console appli
 
 [![C/C++ CI](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/c-build.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/c-build.yml)
 
-
 [![CI](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/main.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/main.yml)
 
 ## Folder Structure
@@ -29,5 +28,5 @@ The mini-project “Library management system project in C” is a console appli
 | `5_ImagesandVideos`      | Documents with images|
 
 ## Learning Resources
-1. Future Skills
-2. Geeksforgeeks
+1.  Future Skills
+2.  Geeksforgeeks
