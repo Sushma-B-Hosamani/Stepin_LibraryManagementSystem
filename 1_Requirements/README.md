@@ -1,9 +1,7 @@
-
 # Requirements 
 
 ## Introduction 
 This project is used to maintain the record of the library. This project wil be accessed by the person who has the valid credentaials. In this project a valid user is able to use all the features which are listed below.  
-
 
 ## Features
 - A simple Library management system.
@@ -44,7 +42,7 @@ This project is used to maintain the record of the library. This project wil be 
 ### High Level Requirements
 | High Level Requirements      | Description |
 | ----------- | ----------- |
-| HLR1      | Login     |
+| HLR1   | Login     |
 | HLR2   | View Menu|
 | HLR3   | Search  |
 
@@ -58,5 +56,3 @@ This project is used to maintain the record of the library. This project wil be 
 | HLR2_LLR4   | Menu - Exit|
 | HLR3_LLR1   | Search - By author name|
 | HLR3_LLR2   | Search - By title|
-
-
