@@ -14,6 +14,7 @@ The mini-project “Library management system project in C” is a console appli
 
 [![Unit Testing - Unity](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/unity.yml)
 
+[![C/C++ CI](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/c-build.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/c-build.yml)
 
 ## Folder Structure
 |Folder             | Description |
