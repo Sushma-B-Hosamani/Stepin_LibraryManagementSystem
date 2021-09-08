@@ -23,9 +23,9 @@ The mini-project “Library management system project in C” is a console appli
 |Folder             | Description |
 |-------------------| -----------------------------------------|
 | `1_Requirements`   | Documents detailing requirements and research|
-| `2_Design`         | Documents specifying design details|
+| `2_Design`         | Structural and Behavioural UML|
 | `3_Implementation` | All code and documentation|
-| `4_Test_plan`      | Documents with test plans and procedures|
+| `4_Test_plan`      | High level and low level requirements|
 | `5_ImagesandVideos`      | Documents with images|
 
 ## Learning Resources
