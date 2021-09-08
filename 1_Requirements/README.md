@@ -54,8 +54,8 @@ This project is used to maintain the record of the library. This project wil be 
 | HLR1_LLR1  | Login(Username,Password) |
 | HLR2_LLR1   | Menu - Add Book|
 | HLR2_LLR2   | Menu - Display/list Books|
-| HLR2_LLR2   | Menu - Count total number of Books|
-| HLR2_LLR3   | Menu - Exit|
+| HLR2_LLR3   | Menu - Count total number of Books|
+| HLR2_LLR4   | Menu - Exit|
 | HLR3_LLR1   | Search - By author name|
 | HLR3_LLR2   | Search - By title|
 
