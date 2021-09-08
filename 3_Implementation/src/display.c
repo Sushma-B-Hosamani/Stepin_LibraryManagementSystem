@@ -9,8 +9,8 @@
  * 
  */
 
+#include "fun.h"
 #include "struct.c"
-
 
 extern int count;
 extern int size;
@@ -23,7 +23,7 @@ int i;
 printf("you have entered the following information\n");
 for(i=0; i<count; i++)
 {
-printf ("\nbook name = %s",book[i].title);
+printf ("book name = %s",book[i].title);
 
 printf ("\t author name = %s",book[i].author);
 

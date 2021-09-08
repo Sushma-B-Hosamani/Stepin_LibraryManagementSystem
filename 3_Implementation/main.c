@@ -6,7 +6,6 @@
 
 int count=0;
 int size;
-char password[8]="library";
 
 
 void head() {
@@ -56,12 +55,13 @@ case 4:
     break;
 
 case 5:
-	
+	exit1();
     return;
 default:
 	printf("Please enter a valid input\n");
 
 }
+getchar();
 
 }while(1);
 
@@ -79,7 +79,7 @@ void login(void) {
 		printf("\n\n\n\t\t\tusername => ");
 		gets(us);
 		printf("\n\t\t\tpassword => ");
-
+        gets(pass);
 		
 
 		if((strcmp(us,"admin")==0)&&strcmp(pass,"pass")==0)
@@ -139,7 +139,7 @@ void search(void)
         scanf("%d",&c);
 
         if(c==0)
-            main();
+            menu();
         else
             exit1();
 
