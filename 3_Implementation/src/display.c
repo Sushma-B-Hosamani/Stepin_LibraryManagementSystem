@@ -19,17 +19,17 @@ extern Book *book;
 void displaybook()
 {
 int i;
-
 printf("you have entered the following information\n");
 for(i=0; i<count; i++)
 {
-printf ("book name = %s",book[i].title);
+printf ("\nbook name = %s",book[i].title);
 
 printf ("\t author name = %s",book[i].author);
 
 printf ("\t  pages = %d",book[i].pages);
 
 printf ("\t  price = %f",book[i].price);
+
 }
 
 }
