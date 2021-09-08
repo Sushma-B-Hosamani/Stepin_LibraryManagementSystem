@@ -8,8 +8,9 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "fun.h"
+
 #include "struct.c"
+#include "fun.h"
 
 extern int count;
 extern int size;
@@ -27,7 +28,7 @@ menu();
 
 void addbook()
 {
-int c;
+
 printf ("\nEnter book name = ");
 gets(book[count].title);
 
@@ -41,12 +42,5 @@ printf ("Enter price = ");
 scanf ("%f",&book[count].price);
 count++;
 
-printf("\n\nPress 0 to go back to main menu or press 1 to exit\n");
-        scanf("%d",&c);
-
-        if(c==0)
-            menu();
-        else
-            exit1();
     
 }

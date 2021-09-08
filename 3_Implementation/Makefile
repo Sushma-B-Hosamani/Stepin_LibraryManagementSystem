@@ -8,12 +8,7 @@ src/search_author.c\
 src/search_title.c
 
 
-TEST_SRC = src/add.c\
-src/count.c\
-src/display.c\
-src/search_author.c\
-src/search_title.c\
-Test/lib_test.c\
+TEST_SRC = Test/lib_test.c\
 unity/unity.c 
   
 

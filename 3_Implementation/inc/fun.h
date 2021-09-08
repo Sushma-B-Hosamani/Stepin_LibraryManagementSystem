@@ -10,8 +10,6 @@
  */
 
 
-#include "stdio.h"
-
 
 #ifndef FUN_H
 #define FUN_H
@@ -30,4 +28,3 @@ void search();
 void login();
 void exit1();
 #endif //#ifndef FUN_H
-

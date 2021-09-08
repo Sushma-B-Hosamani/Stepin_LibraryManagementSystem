@@ -16,7 +16,7 @@ extern Book *book;
 
 void listofbooks_by_author()
 {
-int flag=0,c;
+int flag=0;
 char btitle[30];
 int i;
 printf ("Enter author name : ");
@@ -35,12 +35,5 @@ if (flag != 1)
         printf("No book found");
         flag = 0;
     }
-printf("\n\nPress 0 to go back to main menu or press 1 to exit\n");
-        scanf("%d",&c);
-
-        if(c==0)
-            menu();
-        else
-            exit1();
         
 }
