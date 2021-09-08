@@ -17,6 +17,7 @@
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"
+#include "math.h"
 void addbook();
 void displaybook();
 void listofbooks_by_author();

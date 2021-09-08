@@ -62,7 +62,7 @@ default:
 	printf("Please enter a valid input\n");
 
 }
-getch();
+
 }while(1);
 
 
@@ -80,28 +80,19 @@ void login(void) {
 		gets(us);
 		printf("\n\t\t\tpassword => ");
 
-		while(ch!=13) {
-			ch=getch();
-
-			if(ch!=13 && ch!=8) {
-			putch('*');
-			pass[j] = ch;
-			j++;
-			}
-		}
-		pass[j] = '\0';
+		
 
 		if((strcmp(us,"admin")==0)&&strcmp(pass,"pass")==0)
         {
 			printf("\n\n\n\t\t\tLOGIN SUCCESSFULL!!!\n\t\t\tPress any key to continue\n\n\n\n");
-			getch();
+			
             number();
 		}
         else
         {
             printf("\n\n\t\t Incorrect password entered");
             printf("\n\n\t\t Press any key to continue");
-            getch();
+            
             return;
         }  
 }

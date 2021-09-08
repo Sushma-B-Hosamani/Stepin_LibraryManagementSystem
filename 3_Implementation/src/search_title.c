@@ -20,7 +20,7 @@ void books_by_title()
 {
     int flag=0;
 char btitle[30];
-int i,c;
+int i;
 printf ("Enter book title:");
 scanf ("%s",btitle);
 for (i=0; i<count; i++)
@@ -39,12 +39,4 @@ if (flag!= 1)
     }
 
 
-        printf("\nPress 0 to go back to main menu or Press 1 to exit after input\n\n");
-
-        scanf("%d",&c);
-
-        if(c==0)
-            menu();
-        else
-            exit1();
 }

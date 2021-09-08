@@ -18,7 +18,7 @@ extern Book *book;
 
 void displaybook()
 {
-int i,c;
+int i;
 
 printf("you have entered the following information\n");
 for(i=0; i<count; i++)
@@ -32,12 +32,4 @@ printf ("\t  pages = %d",book[i].pages);
 printf ("\t  price = %f",book[i].price);
 }
 
-        printf("\nPress 0 to go back to main menu or Press 1 to exit after input\n\n");
-
-        scanf("%d",&c);
-
-        if(c==0)
-            menu();
-        else
-            exit1();
 }

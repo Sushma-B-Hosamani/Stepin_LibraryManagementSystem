@@ -16,15 +16,7 @@ extern Book *book;
 
 void countbook()
 {
-    int c;
+    
 printf("\n No of books in library : %d", count);
-        
-        printf("\nPress 0 to go back to main menu or Press 1 to exit after input\n\n");
-
-        scanf("%d",&c);
-
-        if(c==0)
-            menu();
-        else
-            exit1();
+       
 }
