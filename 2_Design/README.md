@@ -1,5 +1,5 @@
 # Architectures
-## Behavioral Diagram
+## Behaviour Diagram
 ![Behaviour](https://user-images.githubusercontent.com/89739360/132559411-7694a63e-9a1e-407b-a0f4-0629daf27eaf.png)
 ## Flow Chart
 ![Flow_chart](https://user-images.githubusercontent.com/89739360/132558583-4f43d7e4-bb9c-45fc-ada6-f53a87458cef.png)
