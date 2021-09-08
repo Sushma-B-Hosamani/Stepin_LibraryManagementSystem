@@ -1,4 +1,3 @@
-
 # **TEST PLAN**:
 
 # High level test plan
@@ -9,7 +8,6 @@
 |HL02|DISPLAY BOOKS|CHOICE 2|
 |HL03|SEARCH BOOK|AUTHOR,BOOKNAME|
 |HL04|COUNT BOOK|CHOICE 4|
-
 
 # Low level test plan
 
