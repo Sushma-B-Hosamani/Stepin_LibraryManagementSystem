@@ -8,6 +8,11 @@ The mini-project “Library management system project in C” is a console appli
 # Codacy
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/20dd587e99b34badb04a17a2c6360c3d)](https://www.codacy.com/gh/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sushma-B-Hosamani/Stepin_LibraryManagementSystem&amp;utm_campaign=Badge_Grade)
 
+[![cppcheck-action](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/cppcheck.yml)
+
+[![Contribution Check - Git Inspector](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml)
+
+
 ## Folder Structure
 |Folder             | Description |
 |-------------------| -----------------------------------------|
