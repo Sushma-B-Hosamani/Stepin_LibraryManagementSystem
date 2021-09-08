@@ -56,7 +56,7 @@ case 4:
     break;
 
 case 5:
-	exit1();
+	
     return;
 default:
 	printf("Please enter a valid input\n");
@@ -158,6 +158,7 @@ void search(void)
 void exit1(void)
 {
     printf("\n\n                     Thanks For Using The Software                \n");
+    return;
 }
 
 int main() {

@@ -18,7 +18,7 @@ void listofbooks_by_author()
 {
 int flag=0;
 char btitle[30];
-int i;
+int i,c;
 printf ("Enter author name : ");
 scanf ("%s",btitle);
 for (i=0; i<count; i++)
@@ -35,5 +35,14 @@ if (flag != 1)
         printf("No book found");
         flag = 0;
     }
-        
+
+
+        printf("\nPress 0 to go back to main menu or Press 1 to exit after input\n\n");
+
+        scanf("%d",&c);
+
+        if(c==0)
+            menu();
+        else
+            exit1();    
 }

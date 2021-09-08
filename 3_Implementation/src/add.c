@@ -28,7 +28,7 @@ menu();
 
 void addbook()
 {
-
+int c;
 printf ("\nEnter book name = ");
 gets(book[count].title);
 
@@ -42,5 +42,12 @@ printf ("Enter price = ");
 scanf ("%f",&book[count].price);
 count++;
 
-    
+        printf("\nPress 0 to go back to main menu or Press 1 to exit after input\n\n");
+
+        scanf("%d",&c);
+
+        if(c==0)
+            menu();
+        else
+            exit1(); 
 }
