@@ -25,5 +25,9 @@ void listofbooks_by_author();
 void books_by_title();
 void countbook();
 void number();
+void menu();
+void search();
+void login();
+void exit1();
 #endif //#ifndef FUN_H
 

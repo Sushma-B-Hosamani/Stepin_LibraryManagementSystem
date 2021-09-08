@@ -22,11 +22,12 @@ printf("\n Enter total number of book you want to add in the library\n Enter int
 scanf("%d",&size);
 
 book=(Book*) malloc(sizeof(Book)*size);
+menu();
 }
 
 void addbook()
 {
-
+int c;
 printf ("\nEnter book name = ");
 gets(book[count].title);
 
@@ -40,4 +41,12 @@ printf ("Enter price = ");
 scanf ("%f",&book[count].price);
 count++;
 
+printf("\n\nPress 0 to go back to main menu or press 1 to exit\n");
+        scanf("%d",&c);
+
+        if(c==0)
+            menu();
+        else
+            exit1();
+    
 }
