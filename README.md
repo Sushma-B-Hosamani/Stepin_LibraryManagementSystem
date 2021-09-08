@@ -12,6 +12,8 @@ The mini-project “Library management system project in C” is a console appli
 
 [![Contribution Check - Git Inspector](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml)
 
+[![Contribution Check - Git Inspector](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Sushma-B-Hosamani/Stepin_LibraryManagementSystem/actions/workflows/gitinspector.yml)
+
 ## Folder Structure
 |Folder             | Description |
 |-------------------| -----------------------------------------|
