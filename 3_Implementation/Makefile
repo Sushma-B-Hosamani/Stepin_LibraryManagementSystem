@@ -7,7 +7,6 @@ src/display.c\
 src/search_author.c\
 src/search_title.c
 
-
 TEST_SRC = Test/lib_test.c\
 unity/unity.c 
   
@@ -28,10 +27,11 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 INC	= -Iinc\
 -Iunity
 
-build:
+all:$(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-run: build
+
+run: all
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 # Build and run of Unit test
@@ -42,7 +42,17 @@ build_test:
 run_test: build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+analyze: test memcheck staticcheck coverage sanitize_check
 
+staticcheck:
+	cppcheck --enable=all -iunity .
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
+	./$(TEST_OUTPUT)
 
 clean:
 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
